@@ -50,6 +50,7 @@ export class AppComponent {
   isMale;
   isInitiated: boolean;
   hasFocus: boolean;
+  st: boolean;
 
 
   onSubmit() {
