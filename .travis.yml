@@ -11,5 +11,6 @@ branches:
 before_script:
   - npm install -g @angular/cli
 script:
+- ng lint
 - ng test
 - ng build --prod --base-href https://apieniazek.github.io/test-automation-workshops/
